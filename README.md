@@ -6,7 +6,7 @@ CLI QR Code Generator based on `nayuki/QR-Code-generator`
 
 ```
 qrgen 1.0
-Benjamin Schilling <bnejamin.schilling33@gmail.com>
+Benjamin Schilling <benjamin.schilling33@gmail.com>
 Generate QR Code SVG files from command line
 
 USAGE:

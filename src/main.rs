@@ -22,7 +22,7 @@ use std::io::prelude::*;
 fn main() {
     let matches = App::new("qrgen")
         .version("1.0")
-        .author("Benjamin Schilling <bnejamin.schilling33@gmail.com>")
+        .author("Benjamin Schilling <benjamin.schilling33@gmail.com>")
         .about("Generate QR Code SVG files from command line")
         .arg(
             Arg::with_name("text")
