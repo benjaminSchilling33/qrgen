@@ -1,6 +1,6 @@
 # Simple QR Code Generator
 
-CLI QR Code Generator
+CLI QR Code Generator based on `nayuki/QR-Code-generator`
 
 ## Usage
 
