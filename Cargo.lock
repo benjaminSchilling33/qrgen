@@ -66,7 +66,7 @@ checksum = "d24ea38b2345f15533e6668104bec0136883404287e095f15f9ea2522e2b4b6c"
 
 [[package]]
 name = "qrgen"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "clap",
  "qrcodegen",
