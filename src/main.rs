@@ -118,7 +118,7 @@ fn wifi_subcommand(matches: &ArgMatches<'_>) {
     if matches.is_present("file") {
         path = matches.value_of("file").unwrap();
     }
-    let text = format!("WIFI:T:{};S:{};P:{};;", &enc, &ssid, &password);
+    let text = format!("wifi:S:{};T:{};P:{};;", &ssid, &enc, &password);
     let qr = QrCode::encode_text(&text, QrCodeEcc::Medium).unwrap();
     let svg = qr.to_svg_string(4);
 
